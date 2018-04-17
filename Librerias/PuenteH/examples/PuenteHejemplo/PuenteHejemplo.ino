@@ -39,5 +39,5 @@ void loop() {
   //detenemos ambos motores durante 3 segundos
   pH.detener();//detiene ambos motores
   delay(3000);
-  //para frenar solo un motor
+  //para frenar solo un motor funcion: detener(motor);
 }
