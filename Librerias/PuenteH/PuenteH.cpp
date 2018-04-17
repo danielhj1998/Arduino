@@ -43,4 +43,5 @@ void PuenteH::detener()
 {
     //activamos el stby
     digitalWrite(m_pstby,LOW);
+    m_iEstby=LOW;
 }
